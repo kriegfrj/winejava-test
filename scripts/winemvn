@@ -1,2 +1,2 @@
 #!/bin/sh
-JAVACMD=~/scripts/winejava mvn $@
+JAVACMD=./scripts/winejava mvn $@
