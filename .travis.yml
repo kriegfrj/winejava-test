@@ -6,15 +6,15 @@ jdk:
 
 addons:
   apt:
-    sources:
-    - ubuntu-wine
+  #  sources:
+    #- ubuntu-wine
     packages:
     - wine
 
 cache:
   directories:
-        - $HOME/.wine
-        - $HOME/.jdk_cache
+#        - $HOME/.wine
+  #      - $HOME/.jdk_cache
         - $HOME/.m2
 
 before_install:
