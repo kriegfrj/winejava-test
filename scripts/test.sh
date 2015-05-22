@@ -8,4 +8,4 @@ scripts/winejava -version
 echo -e "\nRunning winemvn"
 scripts/winemvn test
 echo -e "\nWas wine installed?"
-cat hs_err_did*
+cat hs_err_pid*
