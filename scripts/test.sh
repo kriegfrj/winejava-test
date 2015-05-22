@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-WINEDEBUG=-all
+export WINEDEBUG=-all
 echo "Running the test script"
-echo "exit" | wine cmd
-echo "Was wine installed?"
+echo -e "echo Hi there from wine!\nexit" | wine cmd
+echo -e "\nWas wine installed?"
