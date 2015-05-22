@@ -11,7 +11,7 @@ cache:
         - $HOME/.m2
 
 before_install:
-    - sudo add-apt-repository ppa:ubuntu-wine/ppa
+    - echo | sudo add-apt-repository ppa:ubuntu-wine/ppa
     - sudo apt-get update -qq
     - sudo apt-get install -y wine1.7
     - ./scripts/setup-wine.sh
