@@ -10,9 +10,9 @@ cache:
         - $HOME/.jdk_cache
 
 before_install:
-#    - sudo apt-get update -qq
-#    - sudo apt-get install -y wine
-#    - ./scripts/setup-wine.sh
+    - sudo apt-get update -qq
+    - sudo apt-get install -y wine
+    - ./scripts/setup-wine.sh
 
 script:
     - ./scripts/test.sh
