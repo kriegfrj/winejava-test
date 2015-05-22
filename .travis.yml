@@ -6,6 +6,8 @@ jdk:
 
 addons:
   apt:
+    sources:
+    - ubuntu-wine
     packages:
     - wine
 
