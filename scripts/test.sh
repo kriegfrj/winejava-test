@@ -9,3 +9,4 @@ echo -e "\nRunning winemvn"
 scripts/winemvn test
 echo -e "\nWas wine installed?"
 cat hs_err_pid*
+scripts/winejava -cp target/classes Test
